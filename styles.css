@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table{
+    width: 60vw;
+    height: 50vh;
+    border: 5px solid tomato;
+}
+
+td,th{
+    text-align: center;
+    border: 2px solid tomato;   
+}
+
+th{
+    font-weight: 100;
+}
